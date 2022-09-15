@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+h1{
+    color: lightseagreen;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 20px;
+}
+.todo-container {
+    margin-top: 100px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.todo-container ul {
+    list-style-type: none;
+    padding: 20px 10px;
+    margin: 10px 0px;
+    background-color: lightgreen;
+}
+
+.todo-container li {
+    padding: 10px 0;
+    font-size: 2rem;
+}
+
+.textline {
+    text-decoration: line-through;
+}
+
+.pointer:hover{
+    cursor: pointer;
+}
